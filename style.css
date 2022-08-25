@@ -49,6 +49,8 @@ div#container div {
   transition: all 0.5s;
   box-shadow: 0 10px 20px 5px #ccc;
   margin: 20px 0;
+  /* Bonus Changes */
+  position: relative;
 }
 div#container div:hover {
   transform: translateY(-3px);
@@ -58,4 +60,14 @@ div#container div h1 {
 }
 div#container div h3 {
   font-size: 20px;
+}
+/* Bonus Changes */
+#btn {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: red;
+  border: 0px;
 }
